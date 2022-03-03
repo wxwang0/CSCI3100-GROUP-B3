@@ -3,7 +3,7 @@ import socket
 client = socket.socket()
 client.connect(('--',9999))
  
-client.send("Hi, I'm client1.".encode())
+client.send("Hello world.".encode())
 client.close()
 
 class ChatClient:
